@@ -1,5 +1,8 @@
 package uk.com.marinaalmeida.challengetodolist.controller;
 
+import jakarta.validation.Valid;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import uk.com.marinaalmeida.challengetodolist.entity.Todo;
 import uk.com.marinaalmeida.challengetodolist.service.TodoService;
@@ -17,7 +20,7 @@ public class TodoController {
     }
 
     @PostMapping
-    List<Todo> create(@RequestBody Todo todo){
+    List<Todo> create(@RequestBody @Valid Todo todo){
         return  todoService.create(todo);
     }
 
