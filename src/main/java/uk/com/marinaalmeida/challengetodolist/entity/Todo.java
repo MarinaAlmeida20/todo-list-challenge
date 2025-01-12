@@ -22,4 +22,10 @@ public class Todo {
     private boolean concluded;
     private int priority;
 
+    public Todo(String name, String description, boolean concluded, int priority) {
+        this.name = name;
+        this.description = description;
+        this.concluded = concluded;
+        this.priority = priority;
+    }
 }
