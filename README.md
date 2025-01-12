@@ -31,7 +31,7 @@ $ ./mvnw clean package
 ```
 - Execute the application:
 ```
-$ java -jar target/todolist-0.0.1-SNAPSHOT.jar
+$ java -jar target/challengetodolist-0.0.1-SNAPSHOT.jar
 ```
 
 The API can be accessed at [localhost:8082](http://localhost:8082).
@@ -46,23 +46,23 @@ The [postman](https://www.postman.com/) tool was used to make the HTTP requests 
 - Create Task
 
 <p align="center">
-    <img width="700" align="center" src=//github.com/MarinaAlmeida20/todo-list-challenge/blob/master/src/main/resources/assets/postman_post.png?raw=true" alt="postman post request"/>
+    <img align="center" src="https://github.com/MarinaAlmeida20/todo-list-challenge/blob/dev/src/main/resources/assets/postman_post.png?raw=true" alt="postman post request"/>
 </p>
 
 - List Tasks
 
 <p align="center">
-    <img width="700" align="center" src=//github.com/MarinaAlmeida20/todo-list-challenge/blob/master/src/main/resources/assets/postman_get.png?raw=true" alt="postman get request"/>
+    <img align="center" src="https://github.com/MarinaAlmeida20/todo-list-challenge/blob/master/src/main/resources/assets/postman_get.png?raw=true" alt="postman get request"/>
 </p>
 
 - Update Task
 
 <p align="center">
-    <img width="700" align="center" src=//github.com/MarinaAlmeida20/todo-list-challenge/blob/master/src/main/resources/assets/postman_put.png?raw=true" alt="postman put request"/>
+    <img align="center" src="https://github.com/MarinaAlmeida20/todo-list-challenge/blob/dev/src/main/resources/assets/postman_put.png?raw=true" alt="postman put request"/>
 </p>
 
 - Delete Task
 
 <p align="center">
-    <img width="700" align="center" src=//github.com/MarinaAlmeida20/todo-list-challenge/blob/master/src/main/resources/assets/postman_delete.png?raw=true" alt="postman delete request"/>
+    <img align="center" src="https://github.com/MarinaAlmeida20/todo-list-challenge/blob/dev/src/main/resources/assets/postman_delete.png?raw=true" alt="postman delete request"/>
 </p>
