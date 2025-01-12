@@ -6,10 +6,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter
-@Setter
-@AllArgsConstructor
-@NoArgsConstructor
 @Entity
 @Table(name = "todos")
 public class Todo {
@@ -27,5 +23,25 @@ public class Todo {
         this.description = description;
         this.concluded = concluded;
         this.priority = priority;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public boolean isConcluded() {
+        return concluded;
+    }
+
+    public int getPriority() {
+        return priority;
     }
 }
